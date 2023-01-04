@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: white;
+    margin:0;   
+}
+
+.bodyDetalle{
+    font-family: 'Press Start 2P', cursive;
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    width: 400px;
+    text-align: center;
+    color:rgb(199, 2, 2);
+}
+button{
+    width: 200px;
+    height: 42px;
+    border-radius: 10px;
+    background-color: rgb(255, 238, 5);
+    color: rgb(3, 24, 143);
+    border-color: rgb(0, 4, 247);
+    font-family:'Press Start 2P', cursive;
+    margin: 40px;
+    font-weight: 700;
+}
+
+button:hover{
+    cursor:pointer;
+}
+main{
+    text-align: center;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.cont-2{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    background-color: rgb(199, 2, 2);
+    color:white;
+    font-family:'Press Start 2P', cursive;
+    font-size: 12px;
+    width: 100vw;
+    padding: 20px;
+}
+
+footer ul{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/*-------ESTILOS POKECARDS----------*/
+
+#app{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 1em;
+    margin: auto;
+}
+.pokeArticle{
+    width: 200px;
+    height: 270px;
+    margin: 0.5em;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgb(255 238 5);
+    border-radius: 10px;
+    border-color: #fffb00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokeCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 270px;
+}
+.pokeCard img{
+    width: 100%;
+    margin: auto;
+
+}
+.pokeCard figure{
+    width: 60%;
+}
+.datos{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+     height: 270px;
+}
+.datos h3{
+    font-size: 1.2em;
+    color: #1900a8;;
+}
+.pokeA{
+    width: 80%;
+    border: 1px solid #fffaff;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fffaff;
+    text-decoration: none;
+    background-color: rgb(199 2 2);
+    font-size: 0.8rem;
+}
+.pokeA:hover{
+    background-color: #ffffff;
+    color: #ca0000;
+    border: 1px solid #ffffff;
+}
+
+
+/*--Estilos detalle POKE--*/
+.pokeUl ul li{
+    list-style: none;
+    text-align: left;
+    color: #dd1d1d;
+    padding: 3px;
+
+}
+.infoPokemon{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #1900a8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #1900a8;
+	align-items: center;
+}
+.pokeUl{
+    padding-top: 20px;
+}
+
+.InfoPokemon h2{
+    font-size: 2.9em;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: .5em;
+    font-weight: 100;
+    color: #1900a8;
+}
+
+.infoPokemonText{
+    padding:12px;
+}
+
+.infoPokemon figure img{
+    width: 40%;
+
+}
